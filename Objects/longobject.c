@@ -1858,6 +1858,28 @@ long_to_decimal_string_internal(PyObject *aa,
 static PyObject *
 long_to_decimal_string(PyObject *aa)
 {
+    /* page 37
+     * v1: stdout is console
+     * v2: stdout is python default stdout, but I don't know how to convert a pyobject to a file
+     */
+     
+    /*
+    PyObject *unicode = PyUnicode_FromString("I am gaoxinge.");
+    PyObject_Print(unicode, stdout, 0);
+    printf("\n");
+    */
+    
+    /*
+    if (PyLong_AsLong(aa) == -999) {
+        PyObject *unicode = PyUnicode_FromString("I am gaoxinge.");
+        PyObject *out = PySys_GetObject("stdout");
+        if (out != NULL) {
+            PyObject_Print(unicode, out, 0);
+            printf("\n");
+        }
+    }
+    */
+    
     PyObject *v;
     if (long_to_decimal_string_internal(aa, &v, NULL, NULL, NULL) == -1)
         return NULL;
