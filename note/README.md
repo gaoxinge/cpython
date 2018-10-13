@@ -1,6 +1,9 @@
 ## reference
 
 - [Python源码剖析](https://book.douban.com/subject/3117898/)
+- 闲谈后
+  - [逃不开的 CPython](https://zhuanlan.zhihu.com/manjusakac)
+  - [源码读Python](https://zhuanlan.zhihu.com/c_168776105)
 - cpython internals
   - [info](http://pgbovine.net/cpython-internals.htm)
   - [course](http://courses.pgbovine.net/csc253/)
