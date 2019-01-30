@@ -21,5 +21,6 @@
 - [A Whirlwind Excursion through Python C Extensions](https://nedbatchelder.com/text/whirlext.html)
 - [pythonc-api-1](https://jayrambhia.com/blog/pythonc-api-1)
 - [pythonc-api-reference-counting](https://jayrambhia.com/blog/pythonc-api-reference-counting)
+- [pythonc-api-making-a-type](https://jayrambhia.com/c++/daily%20posts/python/technical/blog/pythonc-api-making-a-type)
 
 ## cython extension
