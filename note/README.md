@@ -19,5 +19,6 @@
 ## cpython extension
 
 - [A Whirlwind Excursion through Python C Extensions](https://nedbatchelder.com/text/whirlext.html)
+- [pythonc-api-1](https://jayrambhia.com/blog/pythonc-api-1)
 
 ## cython extension
