@@ -10,6 +10,7 @@
   - [video](http://v.youku.com/v_show/id_XMTQ0NzY5ODcyOA==.html?spm=a2hzp.8244740.0.0&f=26549146)
   - [note]()
   - [summary](https://medium.com/@dawran6/getting-started-with-python-internals-a5474ccb8022)
+- summary
 
 ## 引用计数
 
@@ -25,3 +26,11 @@
 - [浅谈Python C扩展](https://blog.csdn.net/fitzzhang/article/details/79212411)
 
 ## cython extension
+
+## compiler
+
+- [PEP 339 -- Design of the CPython Compiler](https://www.python.org/dev/peps/pep-0339/)
+- [Python internals: Working with Python ASTs](https://eli.thegreenplace.net/2009/11/28/python-internals-working-with-python-asts)
+- [Python internals: adding a new statement to Python](https://eli.thegreenplace.net/2010/06/30/python-internals-adding-a-new-statement-to-python)
+
+## virtual machine
