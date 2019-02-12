@@ -39,6 +39,11 @@
 
 ## virtual machine
 
+- [Introduction to the Python Interpreter, Part 1: Function Objects](Under the hood of Python class definitions)
+- [Introduction to the Python Interpreter, Part 2: Code Objects](http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter-2/)
+- [Introduction to the Python Interpreter, Part 3: Understanding Bytecode](http://akaptur.com/blog/2013/11/17/introduction-to-the-python-interpreter-3/)
+- [Introduction to the Python Interpreter, Part 4: It's Dynamic!](http://akaptur.com/blog/2013/12/03/introduction-to-the-python-interpreter-4/)
+
 ## data model
 
 - [Python objects, types, classes, and instances - a glossary](https://eli.thegreenplace.net/2012/03/30/python-objects-types-classes-and-instances-a-glossary)
