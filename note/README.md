@@ -12,21 +12,6 @@
   - [summary](https://medium.com/@dawran6/getting-started-with-python-internals-a5474ccb8022)
 - summary
 
-## 引用计数
-
-- [扩展Python模块系列(四)----引用计数问题的处理](https://blog.csdn.net/kof2019/article/details/77824473)
-- [Python引用计数(Reference Count)](https://www.jianshu.com/p/ecea193abec4)
-
-## cpython extension
-
-- [A Whirlwind Excursion through Python C Extensions](https://nedbatchelder.com/text/whirlext.html)
-- [pythonc-api-1](https://jayrambhia.com/blog/pythonc-api-1)
-- [pythonc-api-reference-counting](https://jayrambhia.com/blog/pythonc-api-reference-counting)
-- [pythonc-api-making-a-type](https://jayrambhia.com/c++/daily%20posts/python/technical/blog/pythonc-api-making-a-type)
-- [浅谈Python C扩展](https://blog.csdn.net/fitzzhang/article/details/79212411)
-
-## cython extension
-
 ## compiler
 
 - [PEP 339 -- Design of the CPython Compiler](https://www.python.org/dev/peps/pep-0339/)
@@ -43,6 +28,8 @@
 - [Introduction to the Python Interpreter, Part 2: Code Objects](http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter-2/)
 - [Introduction to the Python Interpreter, Part 3: Understanding Bytecode](http://akaptur.com/blog/2013/11/17/introduction-to-the-python-interpreter-3/)
 - [Introduction to the Python Interpreter, Part 4: It's Dynamic!](http://akaptur.com/blog/2013/12/03/introduction-to-the-python-interpreter-4/)
+- [A Python Interpreter Written in Python](http://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
+- [nedbat/byterun](https://github.com/nedbat/byterun)
 
 ## data model
 
@@ -50,3 +37,18 @@
 - [The fundamental types of Python - a diagram](https://eli.thegreenplace.net/2012/04/03/the-fundamental-types-of-python-a-diagram)
 - [Python object creation sequence](https://eli.thegreenplace.net/2012/04/16/python-object-creation-sequence)
 - [Under the hood of Python class definitions](https://eli.thegreenplace.net/2012/06/15/under-the-hood-of-python-class-definitions)
+
+## 引用计数
+
+- [扩展Python模块系列(四)----引用计数问题的处理](https://blog.csdn.net/kof2019/article/details/77824473)
+- [Python引用计数(Reference Count)](https://www.jianshu.com/p/ecea193abec4)
+
+## cpython extension
+
+- [A Whirlwind Excursion through Python C Extensions](https://nedbatchelder.com/text/whirlext.html)
+- [pythonc-api-1](https://jayrambhia.com/blog/pythonc-api-1)
+- [pythonc-api-reference-counting](https://jayrambhia.com/blog/pythonc-api-reference-counting)
+- [pythonc-api-making-a-type](https://jayrambhia.com/c++/daily%20posts/python/technical/blog/pythonc-api-making-a-type)
+- [浅谈Python C扩展](https://blog.csdn.net/fitzzhang/article/details/79212411)
+
+## cython extension
