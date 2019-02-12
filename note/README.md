@@ -39,7 +39,9 @@
 
 ## virtual machine
 
-## object model
+## data model
 
 - [Python objects, types, classes, and instances - a glossary](https://eli.thegreenplace.net/2012/03/30/python-objects-types-classes-and-instances-a-glossary)
 - [The fundamental types of Python - a diagram](https://eli.thegreenplace.net/2012/04/03/the-fundamental-types-of-python-a-diagram)
+- [Python object creation sequence](https://eli.thegreenplace.net/2012/04/16/python-object-creation-sequence)
+- [Under the hood of Python class definitions](https://eli.thegreenplace.net/2012/06/15/under-the-hood-of-python-class-definitions)
