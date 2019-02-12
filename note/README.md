@@ -38,3 +38,8 @@
 - [Understanding UnboundLocalError in Python](https://eli.thegreenplace.net/2011/05/15/understanding-unboundlocalerror-in-python)
 
 ## virtual machine
+
+## object model
+
+- [Python objects, types, classes, and instances - a glossary](https://eli.thegreenplace.net/2012/03/30/python-objects-types-classes-and-instances-a-glossary)
+- [The fundamental types of Python - a diagram](https://eli.thegreenplace.net/2012/04/03/the-fundamental-types-of-python-a-diagram)
