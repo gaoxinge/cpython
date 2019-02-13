@@ -10,6 +10,7 @@
   - [video](http://v.youku.com/v_show/id_XMTQ0NzY5ODcyOA==.html?spm=a2hzp.8244740.0.0&f=26549146)
   - [note]()
   - [summary](https://medium.com/@dawran6/getting-started-with-python-internals-a5474ccb8022)
+- [amygdalama/python-internals](https://github.com/amygdalama/python-internals)
 - Python’s Innards
   - [Python’s Innards: Introduction](https://tech.blog.aknin.name/2010/04/02/pythons-innards-introduction/)
   - [Python’s Innards: Objects 101](https://tech.blog.aknin.name/2010/05/12/pythons-innards-objects-101/)
@@ -35,7 +36,7 @@
 
 ## virtual machine
 
-- [Introduction to the Python Interpreter, Part 1: Function Objects](Under the hood of Python class definitions)
+- [Introduction to the Python Interpreter, Part 1: Function Objects](http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter/)
 - [Introduction to the Python Interpreter, Part 2: Code Objects](http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter-2/)
 - [Introduction to the Python Interpreter, Part 3: Understanding Bytecode](http://akaptur.com/blog/2013/11/17/introduction-to-the-python-interpreter-3/)
 - [Introduction to the Python Interpreter, Part 4: It's Dynamic!](http://akaptur.com/blog/2013/12/03/introduction-to-the-python-interpreter-4/)
