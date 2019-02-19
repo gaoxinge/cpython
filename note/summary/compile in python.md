@@ -76,3 +76,11 @@ MyVisitor().visit(node)
 
 - [andreif/codegen](https://github.com/andreif/codegen)
 - [berkerpeksag/astor](https://github.com/berkerpeksag/astor)
+
+## symbol table
+
+## code object / byte code
+
+### generate code from bytecode
+
+- [Exploring and decompiling python bytecode [closed]](https://stackoverflow.com/questions/1149513/exploring-and-decompiling-python-bytecode)
