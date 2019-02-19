@@ -22,7 +22,7 @@
   - [Python’s Innards: for my wife](https://tech.blog.aknin.name/2010/07/04/pythons-innards-for-my-wife/)
   - [Python’s Innards: Interpreter Stacks](https://tech.blog.aknin.name/2010/07/22/pythons-innards-interpreter-stacks/)
   - [Python’s Innards: Hello, ceval.c!](https://tech.blog.aknin.name/2010/09/02/pythons-innards-hello-ceval-c-2/)
-- summary
+- [summary](https://github.com/gaoxinge/cpython/tree/python_study/note/summary)
 
 ## compiler
 
