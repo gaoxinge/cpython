@@ -79,8 +79,12 @@ MyVisitor().visit(node)
 
 ## symbol table
 
+Symbol tabel is created in step3 and used to generate byte code in step4.
+
 ## code object / byte code
 
 ### generate code from bytecode
 
 - [Exploring and decompiling python bytecode [closed]](https://stackoverflow.com/questions/1149513/exploring-and-decompiling-python-bytecode)
+
+## pyc
