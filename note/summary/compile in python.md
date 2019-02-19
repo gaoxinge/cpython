@@ -71,3 +71,8 @@ for item in favs:
 MyTransformer().visit(node)
 MyVisitor().visit(node)
 ```
+
+### generate code from ast
+
+- [andreif/codegen](https://github.com/andreif/codegen)
+- [berkerpeksag/astor](https://github.com/berkerpeksag/astor)
