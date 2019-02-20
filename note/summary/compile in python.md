@@ -205,8 +205,46 @@ dis.dis(A.f)     # dis.dis(A.f.__code__) or dis.dis(A.f.func_code)
 dis.dis(A(1).f)  # dis.dis(A(1).f.__code__) or dis.dis(A(1).f.func_code)
 ```
 
+```python
+# compile(source_code, ...) or compile(ast, ...)
+a = compile("""
+sum([1, 2])""", "<string>", "eval")
+print(eval(a))
+
+
+a = compile("""
+print 'hello world1'
+print 'hello world2'
+""", "<string>", "single")
+exec a
+
+
+a = compile("""
+print 'hello world1'
+print 'hello world2'
+""", "<string>", "exec")
+exec a
+```
+
+```python
+# int == types.IntType
+import types
+
+def f():
+    print 1
+    
+print(isinstance(f.__code__, types.CodeType))
+```
+
 ### generate code from bytecode
 
 - [Exploring and decompiling python bytecode [closed]](https://stackoverflow.com/questions/1149513/exploring-and-decompiling-python-bytecode)
+
+### reference
+
+- [python笔记_codeobject](https://www.jianshu.com/p/649ba6219d06)
+- [Exploring Python Code Objects](https://late.am/post/2012/03/26/exploring-python-code-objects.html)
+- [What is a Python code object?](https://stackoverflow.com/questions/5768684/what-is-a-python-code-object)
+- [How to create a code object in python?](https://stackoverflow.com/questions/16064409/how-to-create-a-code-object-in-python)
 
 ## pyc
