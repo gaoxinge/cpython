@@ -79,7 +79,105 @@ MyVisitor().visit(node)
 
 ## symbol table
 
-Symbol tabel is created in step3 and used to generate byte code in step4.
+Symbol tabel is created in step3 and used to generate byte code in step4. From [symtable — Access to the compiler’s symbol tables](https://docs.python.org/3.7/library/symtable.html), we can operate on ast easily.
+
+### get a symbol table
+
+```python
+import symtable
+table = symtable.symtable("def some_func(): pass", "<string>", "exec")
+table = symtable.symtable("""
+def outer(aa):
+    def inner():
+        bb = 1
+        return aa + bb + cc
+    return inner
+""", "<string>", "exec")
+```
+
+### operate a symbol table
+
+```python
+import symtable
+
+
+def describe_symbol(sym):
+    assert type(sym) == symtable.Symbol
+    print("Symbol:", sym.get_name())
+
+    for prop in [
+            'referenced', 'imported', 'parameter',
+            'global', 'declared_global', 'local',
+            'free', 'assigned', 'namespace']:
+        if getattr(sym, 'is_' + prop)():
+            print('    is', prop)
+
+
+# test1
+table = symtable.symtable("""
+def outer(aa):
+    def inner():
+        bb = 1
+        return aa + bb + cc
+    return inner
+""", "<string>", "exec")
+
+inner_table = table.get_children()[0].get_children()[0]
+aa_symbol = inner_table.lookup("aa")
+bb_symbol = inner_table.lookup("bb")
+cc_symbol = inner_table.lookup("cc")
+describe_symbol(aa_symbol)
+describe_symbol(bb_symbol)
+describe_symbol(cc_symbol)
+
+print("=======================================================")
+
+# test2 
+table =  symtable.symtable("""
+def outer():
+    global gg
+    return ff + gg
+""", "<string>", "exec")
+
+outer_table = table.get_children()[0]
+ff_symbol = outer_table.lookup("ff")
+gg_symbol = outer_table.lookup("gg")
+describe_symbol(ff_symbol)
+describe_symbol(gg_symbol)
+```
+
+```python
+import symtable
+
+
+def describe_symtable(st, recursive=True, indent=0):
+    def print_d(s, *args):
+        prefix = ' ' * indent
+        print(prefix + s, *args)
+
+    assert isinstance(st, symtable.SymbolTable)
+    print_d('Symtable: type=%s, id=%s, name=%s' % (
+                st.get_type(), st.get_id(), st.get_name()))
+    print_d('  nested:', st.is_nested())
+    print_d('  has children:', st.has_children())
+    print_d('  identifiers:', list(st.get_identifiers()))
+
+    if recursive:
+        for child_st in st.get_children():
+            describe_symtable(child_st, recursive, indent + 5)
+
+
+table = symtable.symtable("""
+def outer(aa):
+    def inner():
+        bb = 1
+        return aa + bb + cc
+    return inner
+""", "<string>", "exec")
+
+
+describe_symtable(table)
+```
 
 ## code object / byte code
 
