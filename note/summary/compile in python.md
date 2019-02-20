@@ -181,6 +181,30 @@ describe_symtable(table)
 
 ## code object / byte code
 
+### get code object / byte code
+
+```python
+import dis
+
+
+def f(a):
+    return a
+    
+    
+class A:
+    
+    def __init__(self, a):
+        self.a = a
+        
+    def f(self, b):
+        return self.a + b
+        
+        
+dis.dis(f)       # dis.dis(f.__code__) or dis.dis(f.func_code)
+dis.dis(A.f)     # dis.dis(A.f.__code__) or dis.dis(A.f.func_code)
+dis.dis(A(1).f)  # dis.dis(A(1).f.__code__) or dis.dis(A(1).f.func_code)
+```
+
 ### generate code from bytecode
 
 - [Exploring and decompiling python bytecode [closed]](https://stackoverflow.com/questions/1149513/exploring-and-decompiling-python-bytecode)
