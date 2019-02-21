@@ -236,6 +236,16 @@ def f():
 print(isinstance(f.__code__, types.CodeType))
 ```
 
+```python
+import dis
+import opcode
+
+print(dis.opname[100])
+print(dis.opname[1])
+print(opcode.opname[100])
+print(opcode.opname[1])
+```
+
 ### generate code from bytecode
 
 - [Exploring and decompiling python bytecode [closed]](https://stackoverflow.com/questions/1149513/exploring-and-decompiling-python-bytecode)
@@ -270,4 +280,29 @@ print(isinstance(f.__code__, types.CodeType))
   
 ### eval
 
-Eval is python virtual machine, it creates frame object to compute or calculate code object based on the bytecode of the code object. This happens after compile procedure, and in the import or call function procedure.
+Eval is python virtual machine, it creates frame object to compute or calculate code object based on the bytecode of the code object. This happens after compile procedure, and in the import or call procedure.
+
+### import
+
+- find the file
+- check the file need to compile or recompile
+- if need, compile the file to pyc
+- unmarshal the pyc, and extract the code object from the result
+- eval the code object
+
+Here is some references:
+
+- [How to generate byte code file in python ?](https://www.geeksforgeeks.org/generate-byte-code-file-python/)
+- [Compiling Python Code](http://effbot.org/zone/python-compile.htm)
+- [imp — Access the import internals](https://docs.python.org/3.7/library/imp.html)
+- [importlib — The implementation of import](https://docs.python.org/3.7/library/importlib.html)
+
+### marshal
+
+- marshal and unmarshal is used between codeobject and pyc
+- marshal and pickle is different
+
+Here is some references:
+
+- [The marshal module](http://effbot.org/librarybook/marshal.htm)
+- [marshal — Internal Python object serialization](https://docs.python.org/2/library/marshal.html)
