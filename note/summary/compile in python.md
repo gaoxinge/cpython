@@ -253,6 +253,9 @@ print(isinstance(f.__code__, types.CodeType))
 
 - eval
   - [ceval.c](https://github.com/gaoxinge/cpython/blob/master/Python/ceval.c)
+- frame
+  - [frameobject.c](https://github.com/gaoxinge/cpython/blob/master/Objects/frameobject.c)
+  - [frameobject.h](https://github.com/gaoxinge/cpython/blob/master/Include/frameobject.h)
 - module
   - [moduleobject.c](https://github.com/gaoxinge/cpython/blob/master/Objects/moduleobject.c)
   - [moduleobject.h](https://github.com/gaoxinge/cpython/blob/master/Include/moduleobject.h)
@@ -264,3 +267,7 @@ print(isinstance(f.__code__, types.CodeType))
   - [marshal.c](https://github.com/gaoxinge/cpython/blob/master/Python/marshal.c)
   - [marshal.h](https://github.com/gaoxinge/cpython/blob/master/Include/marshal.h)
   - [marshal.c.h](https://github.com/gaoxinge/cpython/blob/master/Python/clinic/marshal.c.h)
+  
+### eval
+
+Eval is python virtual machine, it creates frame object to compute or calculate code object based on the bytecode of the code object. This happens after compile procedure, and in the import or call function procedure.
