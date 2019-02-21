@@ -248,3 +248,17 @@ print(isinstance(f.__code__, types.CodeType))
 - [How to create a code object in python?](https://stackoverflow.com/questions/16064409/how-to-create-a-code-object-in-python)
 
 ## pyc
+
+### code
+
+- module
+  - [moduleobject.c](https://github.com/gaoxinge/cpython/blob/master/Objects/moduleobject.c)
+  - [moduleobject.h](https://github.com/gaoxinge/cpython/blob/master/Include/moduleobject.h)
+  - [moduleobject.c.h](https://github.com/gaoxinge/cpython/blob/master/Objects/clinic/moduleobject.c.h)
+- import
+  - [import.c](https://github.com/gaoxinge/cpython/blob/master/Python/import.c)
+  - [import.c.h](https://github.com/gaoxinge/cpython/blob/master/Python/clinic/import.c.h)
+- marshal
+  - [marshal.c](https://github.com/gaoxinge/cpython/blob/master/Python/marshal.c)
+  - [marshal.h](https://github.com/gaoxinge/cpython/blob/master/Include/marshal.h)
+  - [marshal.c.h](https://github.com/gaoxinge/cpython/blob/master/Python/clinic/marshal.c.h)
