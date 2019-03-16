@@ -57,6 +57,8 @@
 
 ## cpython extension
 
+- [Extending and Embedding the Python Interpreter](https://docs.python.org/2/extending/index.html)
+- [Python/C API Reference Manual](https://docs.python.org/2/c-api/index.html)
 - [A Whirlwind Excursion through Python C Extensions](https://nedbatchelder.com/text/whirlext.html)
 - [pythonc-api-1](https://jayrambhia.com/blog/pythonc-api-1)
 - [pythonc-api-reference-counting](https://jayrambhia.com/blog/pythonc-api-reference-counting)
@@ -64,3 +66,9 @@
 - [浅谈Python C扩展](https://blog.csdn.net/fitzzhang/article/details/79212411)
 
 ## cython extension
+
+- [Cython: C-Extensions for Python](https://cython.org/)
+- [Cython 基本用法](https://zhuanlan.zhihu.com/p/24311879)
+- [用Cython加速Python到“起飞”](https://www.jianshu.com/p/fc5025094912)
+- [Cython三分钟入门](http://python.jobbole.com/87368/)
+- [用 Cython 造个轮子](https://zhuanlan.zhihu.com/p/38212302)
