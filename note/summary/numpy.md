@@ -7,8 +7,6 @@
 
 ## np.ndarray
 
-### internal
-
 ### PyArrayObject
 
 - [PyArray_Type](https://github.com/numpy/numpy/blob/master/numpy/core/src/multiarray/arrayobject.c#L1780)
