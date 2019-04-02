@@ -5,11 +5,68 @@
 - [include/numpy](https://github.com/numpy/numpy/tree/master/numpy/core/include/numpy)
 - [src](https://github.com/numpy/numpy/tree/master/numpy/core/src)
 
-## `np.ndarray`
+## np.ndarray
 
 ### internal
 
-### `np.array`
+### PyArrayObject
+
+- [PyArray_Type](https://github.com/numpy/numpy/blob/master/numpy/core/src/multiarray/arrayobject.c#L1780)
+
+```c
+typedef struct tagPyArrayObject_fields {
+    PyObject_HEAD
+    char *data;
+    int nd;
+    npy_intp *dimensions;
+    npy_intp *strides;
+    PyArray_Descr *descr;
+} PyArrayObject_fields;
+
+typedef PyArrayObject_fields PyArrayObject;
+```
+
+```c
+// wrap data
+typedef struct {
+    PyObject_HEAD
+    PyObject *base;
+    void *ptr;
+    npy_intp len;
+    int flags;
+} PyArray_Chunk;
+```
+
+```c
+// wrap dimensions and strides
+typedef struct {
+    npy_intp *ptr;
+    int len;
+} PyArray_Dims;
+```
+
+```c
+typedef struct _PyArray_Descr {
+    PyObject_HEAD
+    PyTypeObject *typeobj;
+    char kind;
+    char type;
+    char byteorder;
+    char flags;
+    int type_num;
+    int elsize;
+    int alignment;
+    struct _arr_descr *subarray;
+    PyObject *fields;
+    PyObject *names;
+    PyArray_ArrFuncs *f;
+    PyObject *metadata;
+    NpyAuxData *c_metadata;
+    npy_hash_t hash;
+} PyArray_Descr;
+```
+
+### np.array
 
 - [_array_fromobject](https://github.com/numpy/numpy/blob/master/numpy/core/src/multiarray/multiarraymodule.c#L1575)
 - [PyArray_CheckFromAny](https://github.com/numpy/numpy/blob/master/numpy/core/src/multiarray/ctors.c#L1974)
@@ -18,7 +75,7 @@
 - [PyArray_NewFromDescrAndBase](https://github.com/numpy/numpy/blob/master/numpy/core/src/multiarray/ctors.c#L1176)
 - [PyArray_NewFromDescr_int](https://github.com/numpy/numpy/blob/master/numpy/core/src/multiarray/ctors.c#L909)
 
-### `_array_fill_strides`
+### _array_fill_strides
 
 - [_array_fill_strides](https://github.com/numpy/numpy/blob/master/numpy/core/src/multiarray/ctors.c#L4011)
 
