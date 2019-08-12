@@ -100,3 +100,7 @@ _array_fill_strides(npy_intp *strides, npy_intp *dims, int nd, size_t itemsize,
     return;
 }
 ```
+
+## blas and lapack
+
+- [Why BLAS Matters](http://markus-beuckelmann.de/blog/boosting-numpy-blas.html)
