@@ -104,3 +104,8 @@ _array_fill_strides(npy_intp *strides, npy_intp *dims, int nd, size_t itemsize,
 ## blas and lapack
 
 - [Why BLAS Matters](http://markus-beuckelmann.de/blog/boosting-numpy-blas.html)
+- [Benchmark OpenBLAS, Intel MKL vs ATLAS](https://github.com/tmolteno/necpp/issues/18)
+
+```
+sklearn ---> numpy / scipy ---> blas / lapack ---> openmp / opencl ---> os / hardware
+```
