@@ -101,7 +101,9 @@ _array_fill_strides(npy_intp *strides, npy_intp *dims, int nd, size_t itemsize,
 }
 ```
 
-## blas and lapack
+## architecture
+
+### blas and lapack
 
 - [Why BLAS Matters](http://markus-beuckelmann.de/blog/boosting-numpy-blas.html)
 - [Benchmark OpenBLAS, Intel MKL vs ATLAS](https://github.com/tmolteno/necpp/issues/18)
@@ -109,3 +111,22 @@ _array_fill_strides(npy_intp *strides, npy_intp *dims, int nd, size_t itemsize,
 ```
 sklearn ---> numpy / scipy ---> blas / lapack ---> openmp / opencl ---> os / hardware
 ```
+
+### build from different backend
+
+- [Building from source](https://numpy.org/devdocs/user/building.html)
+- [Compiling numpy with OpenBLAS integration](https://stackoverflow.com/questions/11443302/compiling-numpy-with-openblas-integration)
+- [Building NumPy and SciPy with Intel MKL](https://www.elliottforney.com/blog/npspmkl/)
+
+### opencl
+
+- [xianyi/clOpenBLAS](https://github.com/xianyi/clOpenBLAS)
+
+### cuda
+
+- [cupy/cupy](https://github.com/cupy/cupy)
+
+### tensor
+
+- [tensorly/tensorly](https://github.com/tensorly/tensorly)
+- [mnick/scikit-tensor](https://github.com/mnick/scikit-tensor)
