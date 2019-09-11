@@ -112,7 +112,7 @@ _array_fill_strides(npy_intp *strides, npy_intp *dims, int nd, size_t itemsize,
 sklearn ---> numpy / scipy ---> blas / lapack ---> openmp / opencl ---> os / hardware
 ```
 
-### build from different backend
+### build from backend
 
 - [Building from source](https://numpy.org/devdocs/user/building.html)
 - [Compiling numpy with OpenBLAS integration](https://stackoverflow.com/questions/11443302/compiling-numpy-with-openblas-integration)
@@ -130,3 +130,8 @@ sklearn ---> numpy / scipy ---> blas / lapack ---> openmp / opencl ---> os / har
 
 - [tensorly/tensorly](https://github.com/tensorly/tensorly)
 - [mnick/scikit-tensor](https://github.com/mnick/scikit-tensor)
+
+## other
+
+- [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
+- [sympy/sympy](https://github.com/sympy/sympy)
