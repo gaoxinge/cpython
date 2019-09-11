@@ -131,7 +131,7 @@ sklearn ---> numpy / scipy ---> blas / lapack ---> openmp / opencl ---> os / har
 - [tensorly/tensorly](https://github.com/tensorly/tensorly)
 - [mnick/scikit-tensor](https://github.com/mnick/scikit-tensor)
 
-## other
+### other
 
 - [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
 - [sympy/sympy](https://github.com/sympy/sympy)
