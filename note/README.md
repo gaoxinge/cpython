@@ -72,3 +72,9 @@
 - [用Cython加速Python到“起飞”](https://www.jianshu.com/p/fc5025094912)
 - [Cython三分钟入门](http://python.jobbole.com/87368/)
 - [用 Cython 造个轮子](https://zhuanlan.zhihu.com/p/38212302)
+
+## other
+
+- [SWIG](https://github.com/swig)
+- [pybind/pybind11](https://github.com/pybind/pybind11)
+- [Boost.Python](https://www.boost.org/doc/libs/1_58_0/libs/python/doc/)
