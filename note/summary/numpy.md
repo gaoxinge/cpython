@@ -117,6 +117,7 @@ sklearn ---> numpy / scipy ---> blas / lapack ---> openmp / opencl ---> os / har
 - [Building from source](https://numpy.org/devdocs/user/building.html)
 - [Compiling numpy with OpenBLAS integration](https://stackoverflow.com/questions/11443302/compiling-numpy-with-openblas-integration)
 - [Building NumPy and SciPy with Intel MKL](https://www.elliottforney.com/blog/npspmkl/)
+- [Installing Numpy and OpenBLAS](https://hunseblog.wordpress.com/2014/09/15/installing-numpy-and-openblas/)
 
 ### opencl
 
