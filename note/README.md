@@ -76,5 +76,6 @@
 ## other
 
 - [SWIG](https://github.com/swig)
+- [numba/numba](https://github.com/numba/numba)
 - [pybind/pybind11](https://github.com/pybind/pybind11)
 - [Boost.Python](https://www.boost.org/doc/libs/1_58_0/libs/python/doc/)
