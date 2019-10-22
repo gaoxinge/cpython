@@ -65,16 +65,14 @@
 - [pythonc-api-making-a-type](https://jayrambhia.com/c++/daily%20posts/python/technical/blog/pythonc-api-making-a-type)
 - [浅谈Python C扩展](https://blog.csdn.net/fitzzhang/article/details/79212411)
 
-## cython extension
-
-- [Cython: C-Extensions for Python](https://cython.org/)
-- [Cython 基本用法](https://zhuanlan.zhihu.com/p/24311879)
-- [用Cython加速Python到“起飞”](https://www.jianshu.com/p/fc5025094912)
-- [Cython三分钟入门](http://python.jobbole.com/87368/)
-- [用 Cython 造个轮子](https://zhuanlan.zhihu.com/p/38212302)
-
 ## other
 
+- [cython](https://github.com/cython/cython)
+  - [Cython: C-Extensions for Python](https://cython.org/)
+  - [Cython 基本用法](https://zhuanlan.zhihu.com/p/24311879)
+  - [用Cython加速Python到“起飞”](https://www.jianshu.com/p/fc5025094912)
+  - [Cython三分钟入门](http://python.jobbole.com/87368/)
+  - [用 Cython 造个轮子](https://zhuanlan.zhihu.com/p/38212302)
 - [SWIG](https://github.com/swig)
 - [numba/numba](https://github.com/numba/numba)
 - [pybind/pybind11](https://github.com/pybind/pybind11)
