@@ -50,7 +50,7 @@
 - [Python object creation sequence](https://eli.thegreenplace.net/2012/04/16/python-object-creation-sequence)
 - [Under the hood of Python class definitions](https://eli.thegreenplace.net/2012/06/15/under-the-hood-of-python-class-definitions)
 
-## 引用计数
+## reference count
 
 - [扩展Python模块系列(四)----引用计数问题的处理](https://blog.csdn.net/kof2019/article/details/77824473)
 - [Python引用计数(Reference Count)](https://www.jianshu.com/p/ecea193abec4)
