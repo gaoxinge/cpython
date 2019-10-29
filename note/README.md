@@ -45,6 +45,8 @@
 
 ## data model
 
+- []()
+- [如何将 C 语言发挥到极致？](https://www.zhihu.com/question/48785886/answer/112651728)
 - [Python objects, types, classes, and instances - a glossary](https://eli.thegreenplace.net/2012/03/30/python-objects-types-classes-and-instances-a-glossary)
 - [The fundamental types of Python - a diagram](https://eli.thegreenplace.net/2012/04/03/the-fundamental-types-of-python-a-diagram)
 - [Python object creation sequence](https://eli.thegreenplace.net/2012/04/16/python-object-creation-sequence)
