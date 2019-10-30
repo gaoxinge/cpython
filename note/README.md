@@ -61,6 +61,7 @@
 
 - [Extending and Embedding the Python Interpreter](https://docs.python.org/2/extending/index.html)
 - [Python/C API Reference Manual](https://docs.python.org/2/c-api/index.html)
+- [Coding Patterns for Python Extensions](https://pythonextensionpatterns.readthedocs.io/en/latest/index.html)
 - [A Whirlwind Excursion through Python C Extensions](https://nedbatchelder.com/text/whirlext.html)
 - [pythonc-api-1](https://jayrambhia.com/blog/pythonc-api-1)
 - [pythonc-api-reference-counting](https://jayrambhia.com/blog/pythonc-api-reference-counting)
