@@ -47,6 +47,7 @@
 
 - [Object-Oriented Programming With ANSI-C](https://www.cs.rit.edu/~ats/books/ooc.pdf)
 - [如何将 C 语言发挥到极致？](https://www.zhihu.com/question/48785886/answer/112651728)
+- [C Object Oriented Programming](https://nullprogram.com/blog/2014/10/21/)
 - [Python objects, types, classes, and instances - a glossary](https://eli.thegreenplace.net/2012/03/30/python-objects-types-classes-and-instances-a-glossary)
 - [The fundamental types of Python - a diagram](https://eli.thegreenplace.net/2012/04/03/the-fundamental-types-of-python-a-diagram)
 - [Python object creation sequence](https://eli.thegreenplace.net/2012/04/16/python-object-creation-sequence)
@@ -54,6 +55,7 @@
 
 ## reference count
 
+- [Generic C Reference Counting](https://nullprogram.com/blog/2015/02/17/)
 - [扩展Python模块系列(四)----引用计数问题的处理](https://blog.csdn.net/kof2019/article/details/77824473)
 - [Python引用计数(Reference Count)](https://www.jianshu.com/p/ecea193abec4)
 
