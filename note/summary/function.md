@@ -7,7 +7,7 @@
 - 最多255个
 - 超过255个，在编译器就会报错
 
-```c
+```python
 def g(n):
     s = "def g("
     for _ in range(n - 1):
