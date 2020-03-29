@@ -25,7 +25,6 @@ get_json_state(PyObject *module)
     return (_jsonmodulestate *)state;
 }
 
-
 typedef struct _PyScannerObject {
     PyObject_HEAD
     signed char strict;
@@ -703,7 +702,7 @@ _parse_object_unicode(PyScannerObject *s, PyObject *pystr, Py_ssize_t idx, Py_ss
         return NULL;
 
     /* skip whitespace after { */
-    while (idx <= end_idx && IS_WHITESPACE(PyUnicode_READ(kind,str, idx))) idx++;
+    while (idx <= end_idx && IS_WHITESPACE(PyUnicode_READ(kind, str, idx))) idx++;
 
     /* only loop if the object is non-empty */
     if (idx > end_idx || PyUnicode_READ(kind, str, idx) != '}') {
