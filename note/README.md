@@ -1,6 +1,7 @@
 ## 介绍
 
 - [Python源码剖析](https://book.douban.com/subject/3117898/)
+- [zpoint/CPython-Internals](https://github.com/zpoint/CPython-Internals)
 - 闲谈后
   - [逃不开的 CPython](https://zhuanlan.zhihu.com/manjusakac)
   - [源码读Python](https://zhuanlan.zhihu.com/c_168776105)
