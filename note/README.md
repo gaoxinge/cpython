@@ -11,6 +11,7 @@
   - [video](http://v.youku.com/v_show/id_XMTQ0NzY5ODcyOA==.html?spm=a2hzp.8244740.0.0&f=26549146)
   - [note]()
   - [summary](https://medium.com/@dawran6/getting-started-with-python-internals-a5474ccb8022)
+- [23. Exploring CPython’s Internals](https://devguide.python.org/exploring/)
 - [amygdalama/python-internals](https://github.com/amygdalama/python-internals)
 - Python’s Innards
   - [Python’s Innards: Introduction](https://tech.blog.aknin.name/2010/04/02/pythons-innards-introduction/)
