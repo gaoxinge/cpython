@@ -88,6 +88,7 @@
   - [Cython三分钟入门](http://python.jobbole.com/87368/)
   - [用 Cython 造个轮子](https://zhuanlan.zhihu.com/p/38212302)
 - [SWIG](https://github.com/swig)
-- [numba/numba](https://github.com/numba/numba)
 - [pybind/pybind11](https://github.com/pybind/pybind11)
 - [Boost.Python](https://www.boost.org/doc/libs/1_58_0/libs/python/doc/)
+- [numba/numba](https://github.com/numba/numba)
+- [numba/llvmlite](https://github.com/numba/llvmlite)
