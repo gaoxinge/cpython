@@ -91,4 +91,7 @@
 - [pybind/pybind11](https://github.com/pybind/pybind11)
 - [Boost.Python](https://www.boost.org/doc/libs/1_58_0/libs/python/doc/)
 - [numba/llvmlite](https://github.com/numba/llvmlite)
+  - [llvmlite](https://github.com/gaoxinge/cpython/tree/python_study/note/llvmlite)
+  - [Building and using llvmlite - a basic example](https://eli.thegreenplace.net/2015/building-and-using-llvmlite-a-basic-example/)
+  - [Writing Fibonacci in LLVM with llvmlite](https://ian-bertolacci.github.io/posts/writing_fibonacci_in_LLVM_with_llvmlite)
 - [numba/numba](https://github.com/numba/numba)
