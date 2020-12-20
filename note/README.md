@@ -90,5 +90,5 @@
 - [SWIG](https://github.com/swig)
 - [pybind/pybind11](https://github.com/pybind/pybind11)
 - [Boost.Python](https://www.boost.org/doc/libs/1_58_0/libs/python/doc/)
-- [numba/numba](https://github.com/numba/numba)
 - [numba/llvmlite](https://github.com/numba/llvmlite)
+- [numba/numba](https://github.com/numba/numba)
